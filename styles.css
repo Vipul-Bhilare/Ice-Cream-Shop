@@ -1,0 +1,112 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  /* Header */
+  header {
+    background-color: #FFA07A;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  /* Home Section */
+  #home {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  /* Flavors Section */
+  #flavors {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .flavor {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .flavor img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #FFA07A;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    display: block;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
